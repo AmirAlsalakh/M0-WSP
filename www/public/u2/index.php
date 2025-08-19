@@ -10,10 +10,10 @@
     <fieldset>
         <legend>Ställ in ditt namn och eftennamn</legend>
         <label>Namn</label>
-        <input type="text" name="q1">
+        <input type="text" name="firstname">
         <br>
         <label>Efternamn</label>
-        <input type="text" name="q2">
+        <input type="text" name="lastname">
         <br>
         <input type="submit" value="inmata">
        

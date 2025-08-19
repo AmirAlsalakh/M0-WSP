@@ -8,8 +8,8 @@
 <body>
     <h1>Namn och Efternamn</h1>
     <?php
-    $name = $_POST['q1'];
-    $lastname = $_POST['q2'];
+    $name = $_POST['firstname'];
+    $lastname = $_POST['lastname'];
     $newname = $name." " . $lastname;
 
     echo("<p>Ditt namn och efternamn är " . $newname . " </p>");
